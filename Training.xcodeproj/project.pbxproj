@@ -16,6 +16,11 @@
 		1D97AF2B2BBCF8C30030FCE2 /* TrainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D97AF2A2BBCF8C30030FCE2 /* TrainingTests.swift */; };
 		1D97AF352BBCF8C30030FCE2 /* TrainingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D97AF342BBCF8C30030FCE2 /* TrainingUITests.swift */; };
 		1D97AF372BBCF8C30030FCE2 /* TrainingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D97AF362BBCF8C30030FCE2 /* TrainingUITestsLaunchTests.swift */; };
+		1D97AF442BBE4C6C0030FCE2 /* URLSessionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D97AF432BBE4C6C0030FCE2 /* URLSessionHelper.swift */; };
+		1D97AF462BBE51D90030FCE2 /* VersionHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D97AF452BBE51D90030FCE2 /* VersionHistory.swift */; };
+		1DB28EFF2BC4E791009F6DC3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB28EFE2BC4E791009F6DC3 /* User.swift */; };
+		1DB28F6D2BC79545009F6DC3 /* Training.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DB28F6B2BC79545009F6DC3 /* Training.xcdatamodeld */; };
+		1DBE48452BBFA24E00ABF4B4 /* ReleaseDetailsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBE48442BBFA24E00ABF4B4 /* ReleaseDetailsService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		1D97AF302BBCF8C30030FCE2 /* TrainingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D97AF342BBCF8C30030FCE2 /* TrainingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingUITests.swift; sourceTree = "<group>"; };
 		1D97AF362BBCF8C30030FCE2 /* TrainingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1D97AF432BBE4C6C0030FCE2 /* URLSessionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHelper.swift; sourceTree = "<group>"; };
+		1D97AF452BBE51D90030FCE2 /* VersionHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionHistory.swift; sourceTree = "<group>"; };
+		1DB28EFE2BC4E791009F6DC3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1DB28F6C2BC79545009F6DC3 /* Training.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Training.xcdatamodel; sourceTree = "<group>"; };
+		1DBE48442BBFA24E00ABF4B4 /* ReleaseDetailsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseDetailsService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,11 @@
 				1D97AF1C2BBCF8C20030FCE2 /* Assets.xcassets */,
 				1D97AF1E2BBCF8C20030FCE2 /* LaunchScreen.storyboard */,
 				1D97AF212BBCF8C20030FCE2 /* Info.plist */,
+				1D97AF432BBE4C6C0030FCE2 /* URLSessionHelper.swift */,
+				1D97AF452BBE51D90030FCE2 /* VersionHistory.swift */,
+				1DBE48442BBFA24E00ABF4B4 /* ReleaseDetailsService.swift */,
+				1DB28EFE2BC4E791009F6DC3 /* User.swift */,
+				1DB28F6B2BC79545009F6DC3 /* Training.xcdatamodeld */,
 			);
 			path = Training;
 			sourceTree = "<group>";
@@ -258,9 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D97AF442BBE4C6C0030FCE2 /* URLSessionHelper.swift in Sources */,
+				1DB28F6D2BC79545009F6DC3 /* Training.xcdatamodeld in Sources */,
 				1D97AF182BBCF8BF0030FCE2 /* ViewController.swift in Sources */,
+				1DBE48452BBFA24E00ABF4B4 /* ReleaseDetailsService.swift in Sources */,
 				1D97AF142BBCF8BF0030FCE2 /* AppDelegate.swift in Sources */,
+				1D97AF462BBE51D90030FCE2 /* VersionHistory.swift in Sources */,
 				1D97AF162BBCF8BF0030FCE2 /* SceneDelegate.swift in Sources */,
+				1DB28EFF2BC4E791009F6DC3 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +470,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,6 +499,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -607,6 +629,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1DB28F6B2BC79545009F6DC3 /* Training.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1DB28F6C2BC79545009F6DC3 /* Training.xcdatamodel */,
+			);
+			currentVersion = 1DB28F6C2BC79545009F6DC3 /* Training.xcdatamodel */;
+			path = Training.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1D97AF082BBCF8BF0030FCE2 /* Project object */;
 }
