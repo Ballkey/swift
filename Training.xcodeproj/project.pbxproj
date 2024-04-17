@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D0B400D2BCE25EB002CDC3A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0B400C2BCE25EB002CDC3A /* ViewModel.swift */; };
 		1D97AF142BBCF8BF0030FCE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D97AF132BBCF8BF0030FCE2 /* AppDelegate.swift */; };
 		1D97AF162BBCF8BF0030FCE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D97AF152BBCF8BF0030FCE2 /* SceneDelegate.swift */; };
 		1D97AF182BBCF8BF0030FCE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D97AF172BBCF8BF0030FCE2 /* ViewController.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D0B400C2BCE25EB002CDC3A /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		1D97AF102BBCF8BF0030FCE2 /* Training.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Training.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D97AF132BBCF8BF0030FCE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D97AF152BBCF8BF0030FCE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				1D97AF132BBCF8BF0030FCE2 /* AppDelegate.swift */,
 				1D97AF152BBCF8BF0030FCE2 /* SceneDelegate.swift */,
 				1D97AF172BBCF8BF0030FCE2 /* ViewController.swift */,
+				1D0B400C2BCE25EB002CDC3A /* ViewModel.swift */,
 				1D97AF192BBCF8BF0030FCE2 /* Main.storyboard */,
 				1D97AF1C2BBCF8C20030FCE2 /* Assets.xcassets */,
 				1D97AF1E2BBCF8C20030FCE2 /* LaunchScreen.storyboard */,
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D97AF442BBE4C6C0030FCE2 /* URLSessionHelper.swift in Sources */,
+				1D0B400D2BCE25EB002CDC3A /* ViewModel.swift in Sources */,
 				1DB28F6D2BC79545009F6DC3 /* Training.xcdatamodeld in Sources */,
 				1D97AF182BBCF8BF0030FCE2 /* ViewController.swift in Sources */,
 				1DBE48452BBFA24E00ABF4B4 /* ReleaseDetailsService.swift in Sources */,

@@ -11,7 +11,21 @@ import CoreData
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    private var anotherValue: Int = 100 {
+        didSet {
+            
+        }
+        willSet {
+            
+        }
+    }
+    
+    var value: Int {
+        return anotherValue / 100
+    }
+    
+    
+     
     lazy var persistentCloudKitContainer : NSPersistentCloudKitContainer = {
         let container = NSPersistentCloudKitContainer(name: "Training")
         container.loadPersistentStores { description, error in
